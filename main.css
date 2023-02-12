@@ -1,0 +1,28 @@
+:root {
+  --color-accent: rgb(0, 113, 189);
+}
+p#visual-result {
+  white-space: pre-line;
+  letter-spacing: 0.4;
+}
+.vowel {
+  background-color: azure;
+  color: var(--color-accent);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+table {
+  width: 250px;
+}
+thead,
+tfoot {
+  background-color: var(--color-accent);
+  color: white;
+}
+td {
+  text-align: center;
+}
+tbody td:nth-child(1) {
+  border: 1px solid var(--color-accent);
+}

@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS Vowel Counter</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>TS Vowel Counter</h1>
+    <label for="text">Enter your text: </label>
+    <br />
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    <h3>Result:</h3>
+    <p id="visual-result"></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Vowel</th>
+          <th>Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>a or A</td>
+          <td id="a-count">0</td>
+        </tr>
+        <tr>
+          <td>e or E</td>
+          <td id="e-count">0</td>
+        </tr>
+        <tr>
+          <td>i or I</td>
+          <td id="i-count">0</td>
+        </tr>
+        <tr>
+          <td>o or O</td>
+          <td id="o-count">0</td>
+        </tr>
+        <tr>
+          <td>u or U</td>
+          <td id="u-count">0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Total</td>
+        <td id="total-count">0</td>
+      </tfoot>
+    </table>
+  </body>
+  <script src="main.js"></script>
+</html>
